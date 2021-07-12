@@ -4,3 +4,9 @@
 ```console
 git rm --cached <file>
 ```
+
+#### Undo a reset
+```console
+git reflog
+git reset be8e86f
+```
