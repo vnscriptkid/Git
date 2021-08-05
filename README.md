@@ -10,3 +10,17 @@ git rm --cached <file>
 git reflog
 git reset be8e86f
 ```
+
+#### Flow of working a new feature
+```console
+git checkout -b FixMessages
+#### make lot of changes
+git pull origin master
+git push origin FixMessages
+### asking boss to merge your branch to codebase
+```
+
+#### Merge branch `FixMessages` to `master`
+```console
+(master) git merge FixMessages
+```
