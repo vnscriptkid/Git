@@ -24,3 +24,10 @@ git push origin FixMessages
 ```console
 (master) git merge FixMessages
 ```
+
+#### Reset one branch from whatever in remote right now
+```console
+git fetch --all
+git branch backup-master
+git reset --hard origin/master
+```
